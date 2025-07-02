@@ -2,11 +2,11 @@ version: '3.0'
 services:   
    danielvulkan:
       image: hadaat/nvidiavulkanbase:1.0
-      #runtime: nvidia
+      # runtime: nvidia
       container_name: danielvulkan
       restart: always
       environment:
          - NVIDIA_VISIBLE_DEVICES=1
       tty: true
-      #command: tail -F /dev/null
-      #entrypoint: /lo.sh
+      # command: tail -F /dev/null
+      # entrypoint: /lo.sh
