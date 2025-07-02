@@ -1,9 +1,9 @@
 version: '3.0'
 services:   
-   danielvulkan:
+   octav:
       image: hadaat/nvidiavulkanbase:1.0
       # runtime: nvidia
-      container_name: danielvulkan
+      container_name: octav
       restart: always
       environment:
          - NVIDIA_VISIBLE_DEVICES=1
